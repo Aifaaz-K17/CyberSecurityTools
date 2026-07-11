@@ -29,7 +29,7 @@ No additional packages are required.
 2. Make sure you have Python installed on your system.
 3. Run the program from your terminal: `python caesar_cipher.py`.
 
-🧑‍💻 Usage
+## 🧑‍💻 Usage
 When you start the program, you’ll see a menu with three options:
 
 text
@@ -58,7 +58,7 @@ Enter the shift value (integer): 3
 Decrypted message: Hello, World!
 Note: For decryption, you can also use a negative shift (e.g., -3) instead of choosing the decrypt option – both work.
 
-🔍 How It Works
+## 🔍 How It Works
 The Caesar Cipher replaces each letter with a letter a fixed number of positions down the alphabet. For example, with a shift of 3:
 
 A → D
@@ -77,7 +77,7 @@ Uses modulo arithmetic (% 26) to handle wrapping.
 
 Decryption applies the negative of the shift.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! If you find a bug or have an idea for improvement, please open an issue or submit a pull request.
 
 

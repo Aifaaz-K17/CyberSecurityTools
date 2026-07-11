@@ -27,10 +27,7 @@ No additional packages are required.
 
 1. **Clone** or **download** the script file `caesar_cipher.py`.
 2. Make sure you have Python installed on your system.
-3. Run the program from your terminal:
-
-```bash
-python caesar_cipher.py
+3. Run the program from your terminal: `python caesar_cipher.py`.
 
 🧑‍💻 Usage
 When you start the program, you’ll see a menu with three options:
@@ -82,3 +79,5 @@ Decryption applies the negative of the shift.
 
 🤝 Contributing
 Contributions are welcome! If you find a bug or have an idea for improvement, please open an issue or submit a pull request.
+
+

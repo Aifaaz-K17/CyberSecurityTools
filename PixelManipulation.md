@@ -33,7 +33,7 @@ Three methods are provided:
 The script is designed as a command‑line tool. Run it with:
 
 ```bash
-python image_cipher.py <mode> <input_image> <output_image> [options]
+python PixelManipulation.py <mode> <input_image> <output_image> [options]
 ```
 
 ### Arguments
@@ -50,27 +50,27 @@ python image_cipher.py <mode> <input_image> <output_image> [options]
 
 1. **Encrypt** with XOR (key=42):
    ```bash
-   python image_cipher.py xor photo.png encrypted.png -k 42
+   python PixelManipulation.py xor photo.png encrypted.png -k 42
    ```
 
 2. **Decrypt** the XOR‑encrypted image (same key):
    ```bash
-   python image_cipher.py xor encrypted.png decrypted.png -k 42
+   python PixelManipulation.py xor encrypted.png decrypted.png -k 42
    ```
 
 3. **Encrypt** with addition (key=100):
    ```bash
-   python image_cipher.py add photo.png encrypted.png -k 100
+   python PixelManipulation.py add photo.png encrypted.png -k 100
    ```
 
 4. **Decrypt** addition‑encrypted image (subtract the same key):
    ```bash
-   python image_cipher.py add encrypted.png decrypted.png -k 100 -d
+   python PixelManipulation.py add encrypted.png decrypted.png -k 100 -d
    ```
 
 5. **Swap** red and blue channels (no key needed):
    ```bash
-   python image_cipher.py swap photo.png swapped.png
+   python PixelManipulation.py swap photo.png swapped.png
    ```
    Run again on `swapped.png` to restore the original.
    

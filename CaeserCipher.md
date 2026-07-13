@@ -25,9 +25,9 @@ No additional packages are required.
 
 ## 🚀 Installation
 
-1. **Clone** or **download** the script file `caesar_cipher.py`.
+1. **Clone** or **download** the script file `CaeserCipher.py`.
 2. Make sure you have Python installed on your system.
-3. Run the program from your terminal: `python caesar_cipher.py`.
+3. Run the program from your terminal: `python CaeserCipher.py`.
 
 ## 🧑‍💻 Usage
 When you start the program, you’ll see a menu with three options:

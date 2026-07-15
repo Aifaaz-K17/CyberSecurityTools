@@ -33,8 +33,6 @@ Built with **[Scapy](https://scapy.net/)** – a powerful packet manipulation li
 
 ---
 
----
-
 ## 🚀 Usage Examples
 
 1. **Basic sniffing** (all IP traffic, default interface):

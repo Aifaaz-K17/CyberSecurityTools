@@ -24,9 +24,9 @@ pip install flask flask-jwt-extended bcrypt
 
 ## 🚀 Running the Server
 
-1. Save the code as `app.py`.
+1. Save the code as `JWTapp.py`.
 2. Install dependencies: `pip install flask flask-jwt-extended bcrypt`
-3. Run: `python app.py`
+3. Run: `python JWTapp.py`
 4. The server starts at `http://localhost:5000`
 
 ---

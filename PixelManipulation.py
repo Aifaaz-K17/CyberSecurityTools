@@ -25,7 +25,9 @@ def process_image(mode, input_path, output_path, key=None, decrypt=False):
         if key is None:
             print("Error: --key is required for xor mode")
             sys.exit(1)
+            
         # XOR is symmetric; decrypt flag does not change behaviour
+        
         for pixel in pixels:
             # Apply XOR to each channel
             new_pixel = tuple((ch ^ key) for ch in pixel)
@@ -42,8 +44,10 @@ def process_image(mode, input_path, output_path, key=None, decrypt=False):
             new_pixels.append(new_pixel)
 
     elif mode == 'swap':
+        
         # Swap Red and Blue channels (RGB <-> BGR)
         # For RGBA we swap R and B, keep A unchanged
+        
         for pixel in pixels:
             if len(pixel) == 3:  # RGB
                 new_pixel = (pixel[2], pixel[1], pixel[0])

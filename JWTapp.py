@@ -16,7 +16,7 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=1)  # token valid for 1
 
 jwt = JWTManager(app)
 
-# --- In‑memory "database" ---
+# --- In‑ "database" ---
 # Each user: {"username": str, "password_hash": bytes, "role": str}
 users = []
 

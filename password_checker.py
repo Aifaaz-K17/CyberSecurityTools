@@ -4,7 +4,7 @@ import sys
 def check_password_strength(password):
     """
     Evaluate a password and return a score (0-6), a strength label,
-    and a list of feedback messages.
+    and a list of feedback messages in this.
     """
     score = 0
     feedback = []
